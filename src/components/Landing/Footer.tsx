@@ -21,6 +21,14 @@ const Footer = () => {
           <li>How to work?</li>
           <li>Popular Course</li>
           <li>Service</li>
+          <li
+            onClick={() =>
+              (window.location.href =
+                "https://github.com/aerial-ace1/book-store")
+            }
+          >
+            Github Link
+          </li>
         </ul>
       </div>
       <div className=" max-lg:w-full">
