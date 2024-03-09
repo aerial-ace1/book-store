@@ -1,0 +1,20 @@
+h1{
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #1D1D1D;
+}
+
+li, p{
+    color: rgba(0,0,0,0.5);
+}
+
+li{
+    cursor: pointer;
+}
+
+li:hover{
+    color: #1D1D1D;
+    scale: 1.1;
+    transform-origin: left;
+    transition: all 0.3s ease-in-out;
+}
